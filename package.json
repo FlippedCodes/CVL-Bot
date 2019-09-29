@@ -1,0 +1,31 @@
+{
+  "name": "mawbot",
+  "version": "6.5.1",
+  "description": "This bot belongs to the TDM-Network",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "keywords": [],
+  "author": "phil",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlipperLP/CVL-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FlipperLP/CVL-Bot/issues"
+  },
+  "homepage": "https://github.com/FlipperLP/CVL-Bot#readme"
+}
