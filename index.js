@@ -6,8 +6,6 @@ const fs = require('fs');
 
 const config = require('./config/config.json');
 
-const servers = require('./config/servers.json');
-
 // login
 let token;
 if (fs.existsSync('./config/test_token.json')) {
@@ -44,9 +42,9 @@ client.on('ready', async () => {
 
   client.user.setActivity('with \'+about\' command');
 
-  if (!client.channels.get(servers.rolerequest_cvl)) return;
-  client.channels.get(servers.rolerequest_cvl).bulkDelete(10);
-  client.channels.get(servers.rolerequest_cvl).send({
+  if (!client.channels.get(config.rolerequest_cvl)) return;
+  client.channels.get(config.rolerequest_cvl).bulkDelete(10);
+  client.channels.get(config.rolerequest_cvl).send({
     embed: {
       color: 56063,
       title: 'Rolerequest',
@@ -256,10 +254,10 @@ client.on('messageReactionAdd', async (reaction, user) => {
   // log Reactions, add message and time and shit to the log.
   if (user.bot) return;
 
-  if (!reaction.message.channel.id === servers.rolerequest_cvl) return;
+  if (!reaction.message.channel.id === config.rolerequest_cvl) return;
 
   const requester = reaction.message.guild.member(user);
 
   // check if reaction is from rolerequest
-  if (reaction.message.channel.id === servers.rolerequest_cvl) client.functions.get('role_request').run(reaction, requester, config, user);
+  if (reaction.message.channel.id === config.rolerequest_cvl) client.functions.get('role_request').run(reaction, requester, config, user);
 });
