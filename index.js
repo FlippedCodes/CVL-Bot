@@ -261,5 +261,5 @@ client.on('messageReactionAdd', async (reaction, user) => {
   const requester = reaction.message.guild.member(user);
 
   // check if reaction is from rolerequest
-  if (reaction.message.channel.id === servers.rolerequest_cvl) client.functions.get('role_request_cvl').run(reaction, requester, config, user);
+  if (reaction.message.channel.id === servers.rolerequest_cvl) client.functions.get('role_request').run(reaction, requester, config, user);
 });
