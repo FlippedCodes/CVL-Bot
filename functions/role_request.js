@@ -1,4 +1,4 @@
-module.exports.run = async (reaction, requester, config, user, con) => {
+module.exports.run = async (reaction, requester, config, user) => {
   reaction.message.channel.send(`${user.tag},`)
     .then((message) => message.delete(6000));
 
