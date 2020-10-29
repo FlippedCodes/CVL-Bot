@@ -2,20 +2,86 @@
     "prefix": "+",
     "clientID": "547149222550568970",
     "admin": "302830386919243777",
-
     "cvl": "485755893787656193",
-    "rolerequest_cvl": "547524805704810516",
-
-    "prey": "488077878563569664",
-    "switch": "488082468650483725",
-    "pred": "488077742764589066",
-    "rp": "546029316845076481",
-    "artist": "546029645771046932",
-    "cv": "530970166507601960",
-    "ov": "546028901244076045",
-    "av": "546028928792264722",
-    "ub": "546028954914652173",
-    "vplus": "546029015522344983",
-    "pv": "546029095885078528",
-    "disposal": "546033296707026979"
+    "setup": {
+        "roleRequest": {
+            "channelID": "547524805704810516",
+            "unique": ["488077878563569664", "488082468650483725", "488077742764589066"],
+            "roles": [
+                {
+                    "name": "Prey",
+                    "roleID": "488077878563569664",
+                    "emoji": "🦌",
+                    "mature": false
+                },
+                {
+                    "name": "Switch",
+                    "roleID": "488082468650483725",
+                    "emoji": "🔄",
+                    "mature": false
+                },
+                {
+                    "name": "Predator",
+                    "roleID": "488077742764589066",
+                    "emoji": "🐉",
+                    "mature": false
+                },
+                {
+                    "name": "Role Player",
+                    "roleID": "546029316845076481",
+                    "emoji": "🔤",
+                    "mature": false
+                },
+                {
+                    "name": "Artist",
+                    "roleID": "546029645771046932",
+                    "emoji": "🎨",
+                    "mature": false
+                },
+                {
+                    "name": "Cock Vore",
+                    "roleID": "530970166507601960",
+                    "emoji": "1⃣",
+                    "mature": false
+                },
+                {
+                    "name": "Oral Vore",
+                    "roleID": "546028901244076045",
+                    "emoji": "2⃣",
+                    "mature": false
+                },
+                {
+                    "name": "Anal Vore",
+                    "roleID": "546028928792264722",
+                    "emoji": "3⃣",
+                    "mature": false
+                },
+                {
+                    "name": "Unbirth",
+                    "roleID": "546028954914652173",
+                    "emoji": "4⃣",
+                    "mature": false
+                },
+                {
+                    "name": "Other Types of Vore",
+                    "roleID": "546029015522344983",
+                    "emoji": "5⃣",
+                    "mature": false
+                },
+                {
+                    "name": "Post Vore",
+                    "roleID": "546029095885078528",
+                    "emoji": "6⃣",
+                    "mature": false
+                },
+                {
+                    "name": "Disposal",
+                    "roleID": "546033296707026979",
+                    "emoji": "💩",
+                    "mature": false
+                }
+            ]
+        },
+        "setupFunctions": [ "SETUP_roleRequest" ]
+    }
 }
