@@ -13,7 +13,7 @@
   "author": "phil",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^12.4.1"
   },
   "devDependencies": {
     "eslint": "^6.5.0",
