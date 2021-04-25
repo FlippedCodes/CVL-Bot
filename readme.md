@@ -1,3 +1,3 @@
-# MawBot
+# CVL-Bot
 
-i dont give a shit about descriptions for a private bot
+This bot only handles roles for a server
